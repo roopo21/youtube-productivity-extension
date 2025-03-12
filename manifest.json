@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Cleaner",
+    "version": "1.0",
+    "description": "Block YouTube comments, Shorts, discovery, and recommendations.",
+    "permissions": ["scripting", "storage", "activeTab"],
+    "host_permissions": ["https://www.youtube.com/*"],
+    "icons": {
+        "16": "icon16.png",
+        "24": "icon24.png",
+        "64": "icon64.png"
+      },
+    "action": {
+        "default_popup": "popup.html",
+        "deafult_icon": "icon64.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["content.js"],
+        "css": ["styles.css"]
+      }
+    ],
+    "background": {
+        "service_worker": "background.js"
+      }
+  }
