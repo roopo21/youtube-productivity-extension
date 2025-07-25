@@ -1,5 +1,17 @@
-# youtube-productivity-extension
-Helps with removing discovery, shorts and comments for productivity use-cases.
+📵 YouTube Productivity Extension
+A minimal Chrome/Brave extension to boost your productivity by removing YouTube distractions like:
+  🚫 Shorts
+  🚫 Comments
+  🚫 Discovery feed
 
+🚀 Installation (via Developer Mode)
+1. Clone or download this repository.
+2. Open Chrome or Brave and go to: chrome://extensions/
 
-to use this extention on brave or chrome enable developer settings and select **load unpacked**
+Enable Developer mode (toggle in the top right).
+
+Click Load unpacked and select the extension folder.
+
+Features in the pipeline
+1. Measure time-spent on a youtube session.
+2. Alert after set-time.
